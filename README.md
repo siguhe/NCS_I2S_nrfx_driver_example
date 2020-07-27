@@ -1,4 +1,4 @@
-# NCS I2S nrfx driver
+# NCS I2S nrfx driver example
 NCS tag: v1.3.0
 Mostly tested on nRF5340DK.
 
