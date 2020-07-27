@@ -100,7 +100,7 @@ nrfx_err_t get_sound_init()
 
 	config.mode = NRF_I2S_MODE_MASTER;			//Microphone requirement
 	config.ratio = NRF_I2S_RATIO_64X;			//Microphone requirement
-	config.sample_width = NRF_I2S_SWIDTH_32BIT; //Microphone requirement
+	config.sample_width = NRF_I2S_SWIDTH_24BIT_IN32BIT; //Microphone requirement
 	config.mck_setup = NRF_I2S_MCK_32MDIV31;	//Preference     freq = (MCKfreq/ratio) =16.129 KHz.
 	config.channels = NRF_I2S_CHANNELS_LEFT;	//Preference
 
