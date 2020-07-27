@@ -5,8 +5,8 @@ Mostly tested on nRF5340DK.
 Inspiration from this Devzone comment: https://devzone.nordicsemi.com/f/nordic-q-a/60444/adafruit-i2s-mems-microphone-breakout-with-the-nrf9160-dk/251321#251321.
 
 
-#Install
-The Secure Partition Manager(SPM) does not have I2S enabled as of 27 July 2020. Therefore, we must add it manually. The proccess is from [DevZone](https://devzone.nordicsemi.com/f/nordic-q-a/60444/adafruit-i2s-mems-microphone-breakout-with-the-nrf9160-dk/249997#249997), and explaied, slightly different, below: 
+## Install
+The Secure Partition Manager(SPM) does not have I2S enabled as of 27 July 2020. Therefore, we must add it manually. The proccess is from [DevZone](https://devzone.nordicsemi.com/f/nordic-q-a/60444/adafruit-i2s-mems-microphone-breakout-with-the-nrf9160-dk/249997#249997), and explained, slightly different, below: 
 
 Add to nrf/subsys/spm/Kconfig, inside the menu "Configure Non-Secure peripherals":
 ```
